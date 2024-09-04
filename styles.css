@@ -1,0 +1,162 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+#image{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(0deg, #cd0aea 30%, hsl(0, 100%, 50%) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+img{
+    height: 250px;
+}
+
+#skills h2 ,#resume h2{
+    text-align: center;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(0deg, hsl(311, 100%, 51%) 44%, hsl(201, 98%, 49%) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    
+}
+#skill{
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+#skill p{
+
+    background: -webkit-linear-gradient(0deg, hsl(0, 100%, 51%) 44%, hsl(53, 100%, 51%) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(0deg, #cd0aea 0%, #168ecf 100%);
+    -webkit-background-clip: background-color;
+    -webkit-text-fill-color: beige;
+    text-decoration: solid;
+    padding: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+ #skill p:hover{
+    transition-duration: 1s;
+    background: -webkit-linear-gradient(0deg, hsl(0, 100%, 51%) 44%, hsl(53, 100%, 51%) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(0deg, #cd0aea 0%, #09d1f4 100%);
+    -webkit-background-clip: background-color;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    text-decoration: solid;
+    padding: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+#resume{
+    text-align: center;
+}
+ #download {
+        text-align: center;
+        padding-top: 1px;
+        
+}
+#download button{
+    background: -webkit-linear-gradient(0deg, hsl(268, 100%, 50%) 0%, #031010 100%);
+    -webkit-background-clip: background-color;
+    background-color: transparent;
+    color: rgb(254, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: large;
+}
+#download a :hover{
+    background: -webkit-linear-gradient(0deg, hsl(270, 50%, 95%) 0%, #13ffff 100%);
+    -webkit-background-clip: background-color;
+    background-color: transparent;
+    color: rgb(5, 12, 12);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: large;
+    transition-duration: 1s;
+}
+#footer{
+    padding: 10px;
+    text-align: center;
+}
+#mains{
+    text-transform: capitalize;
+   background-color: rgb(0, 0, 0);
+  
+   
+   
+   
+    
+}
+#main #mains h3{
+    
+    background: -webkit-linear-gradient(0deg, #cd0aea 0%, #168ecf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 2%;
+    display: inline-flex;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    
+}
+
+
+
+#mains a {
+    border-radius: 50px;
+    padding: 10px;
+    
+    
+}
+#main #mains a:hover{
+
+    text-decoration-color: #ffffff;
+    transition-duration: 0.5s;
+    
+}
+#footer a{
+    color: rgb(17, 17, 17);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: double;
+    background-attachment: fixed;
+    background-color: antiquewhite;
+    border-radius: 225px;
+    
+}
+#footer a:hover{
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(170, 89%, 48%);
+    
+    transition-duration: 1s;
+}
