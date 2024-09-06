@@ -161,3 +161,33 @@ img{
     
     transition-duration: 1s;
 }
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+nav li{
+    list-style: none;
+    
+
+}
+nav li a {
+    height: 100%;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    text-decoration: none;
+    
+    
+    
+    
+}
+
+nav li a:hover{
+    color: #0cd0d7;
+
+    transition-duration: 1s;
+}
